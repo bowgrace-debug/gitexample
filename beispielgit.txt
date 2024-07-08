@@ -1,4 +1,6 @@
 let name = Max;
 let nachname = Stolle;
+let vor_nachname = {$name} + {$nachname};
 console.log(name);
 console.log(nachname);
+console.log(vor_nachname);
